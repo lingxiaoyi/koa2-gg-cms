@@ -1,0 +1,51 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "./node_modules/.bin/nodemon bin/www",
+    "prd": "pm2 start bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "debug": "^2.6.3",
+    "jsonwebtoken": "^8.2.2",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-cors": "0.0.16",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^3.3.2",
+    "koa-logger": "^2.0.1",
+    "koa-multer": "^1.0.2",
+    "koa-onerror": "^1.2.1",
+    "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
+    "koa-views": "^5.2.1",
+    "mime": "^2.3.1",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.3",
+    "mz": "^2.7.0",
+    "node-fetch": "^2.2.0",
+    "pug": "^2.0.0-rc.1",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "sequelize": "^4.37.10"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "contains-path": "^1.0.0",
+    "eslint": "^5.2.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-module-utils": "^2.2.0",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "nodemon": "^1.8.1",
+    "read-pkg-up": "^4.0.0"
+  }
+}
